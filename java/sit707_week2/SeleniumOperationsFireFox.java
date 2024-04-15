@@ -28,10 +28,10 @@ public class SeleniumOperationsFireFox {
 	
 
 	public static void officeworks_registration_page(String url) throws IOException {
-		// Step 1: Locate chrome driver folder in the local drive.
+		// Step 1: Locate firefox driver folder in the local drive.
 		System.setProperty("webdriver.gecko.driver", "C:\\geckodriver-v0.34.0-win64\\geckodriver.exe");
 		
-		// Step 2: Use above chrome driver to open up a chromium browser.
+		// Step 2: Use above firefox driver to open up a chromium browser.
 		System.out.println("Fire up Firefox browser.");
 		WebDriver driver = new FirefoxDriver();
 		
